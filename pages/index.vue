@@ -4,6 +4,7 @@
     <Navbar />
     <Hero />
     <About />
+    <Brand />
   </div>
 </template>
 
