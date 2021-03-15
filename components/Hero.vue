@@ -29,7 +29,7 @@ export default {}
 }
 .hero-text {
   font-size: 64px;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
   line-height: 82px;
 }
 .text-alert {
