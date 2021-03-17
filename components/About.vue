@@ -58,7 +58,7 @@ export default {
 }
 .boxer-sitting:hover {
   filter: grayscale(0);
-  transition: all 0.2s;
+  transition: all 0.2s ease-in-out;
 }
 .red-line {
   border-bottom: 4px solid #d81a04;
