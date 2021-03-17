@@ -52,10 +52,11 @@ export default {}
 .boxer-sitting {
   height: 389px;
   width: auto;
-  filter: grayscale(0.2);
+  filter: grayscale(1);
 }
 .boxer-sitting:hover {
   filter: grayscale(0);
+  transition: all 0.2s;
 }
 .red-line {
   border-bottom: 4px solid #d81a04;
