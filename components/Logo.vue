@@ -4,7 +4,7 @@
 
 <style>
 .logo {
-  width: 189px;
+  width: auto;
   height: 71px;
 }
 </style>
