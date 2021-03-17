@@ -22,7 +22,7 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
 .hero-image {
   width: 466px;
   height: 463px;
