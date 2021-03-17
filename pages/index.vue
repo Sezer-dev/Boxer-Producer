@@ -5,6 +5,7 @@
     <Hero />
     <About />
     <Brand />
+    <Products />
   </div>
 </template>
 
