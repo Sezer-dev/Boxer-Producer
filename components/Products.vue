@@ -17,7 +17,7 @@
             class="accordion-button d-flex justify-content-between align-items-center shadow-none p-4"
           >
             {{ accordion.title }}
-            <plus-icon v-if="!accordion.expand"></plus-icon>
+            <plus-icon v-if="accordion.expand"></plus-icon>
             <dash-icon v-else></dash-icon>
           </b-button>
           <b-collapse
