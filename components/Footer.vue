@@ -12,7 +12,7 @@
         </p>
       </div>
       <div>
-        <a href="https//ravertan.com">
+        <a href="https://ravertan.com">
           <img
             class="ravertan-logo"
             src="~/assets/images/ravertan-logo.png"
