@@ -33,6 +33,7 @@ export default {
   font-size: 64px;
   letter-spacing: 4px;
   line-height: 82px;
+  text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.1);
 }
 .text-alert {
   color: #d81a04;
