@@ -4,7 +4,7 @@
       class="container d-flex justify-content-between align-items-center py-4"
     >
       <Logo />
-      <button class="contact-button">CONTACT US</button>
+      <button class="contact-button border-0">CONTACT US</button>
     </div>
   </div>
 </template>
