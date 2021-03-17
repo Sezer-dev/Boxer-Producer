@@ -12,11 +12,11 @@
         </p>
       </div>
       <div>
-        <a href="https://ravertan.com">
+        <a href="https://kucukaslantekstil.com/">
           <img
-            class="ravertan-logo"
-            src="~/assets/images/ravertan-logo.png"
-            alt="ravertan logo"
+            class="kucukaslantekstil-logo"
+            src="~/assets/images/kucukaslan-master.png"
+            alt="kucukaslantekstil logo"
           />
         </a>
       </div>
@@ -29,8 +29,8 @@ export default {}
 </script>
 
 <style scoped>
-.ravertan-logo {
-  height: 71px;
-  width: auto;
+.kucukaslantekstil-logo {
+  height: auto;
+  width: 172px;
 }
 </style>
