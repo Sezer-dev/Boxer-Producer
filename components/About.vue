@@ -1,14 +1,16 @@
 <template>
   <div id="about" class="container-fluid about-container">
-    <div class="row d-flex justify-content-between pt-4 pb-5">
-      <div class="col-md-11 d-flex flex-column align-items-end">
+    <div
+      class="row col-md-10 offset-1 d-flex justify-content-between pt-4 pb-5"
+    >
+      <div class="col-md-12 d-flex flex-column align-items-end">
         <div class="m-3">
           <h1 class="about-title m-0">About</h1>
           <span class="red-line"></span>
         </div>
       </div>
       <div
-        class="col-md-12 d-flex justify-content-around align-items-center pt-2 pb-5"
+        class="col-md-12 d-flex justify-content-between align-items-center pt-2 pb-5"
       >
         <div class="col-md-5">
           <img
