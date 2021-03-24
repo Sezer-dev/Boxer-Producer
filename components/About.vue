@@ -13,7 +13,7 @@
 
     <div class="row d-flex justify-content-center">
       <div
-        class="col-md-10 d-flex justify-content-md-between justify-content-center align-items-center pt-2 pb-2 pt-md-2 pb-md-5"
+        class="col-md-10 d-flex justify-content-md-between justify-content-center align-items-center pb-2 pt-2 pb-md-5"
       >
         <div class="col-md-6 d-md-block d-none">
           <img
