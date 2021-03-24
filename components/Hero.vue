@@ -1,19 +1,19 @@
 <template>
   <div class="container">
-    <div class="row d-flex align-items-center">
-      <div class="col-md-8">
+    <div
+      class="row d-flex align-items-center justify-content-between flex-nowrap"
+    >
+      <div class="col-md-8 col-7 p-md-2">
         <p class="hero-text w-100">
           We design the most comfortable men’s
           <span class="text-alert">underwear.</span>
         </p>
       </div>
-      <div class="col-md-4">
-        <img
-          class="hero-image"
-          src="~/assets/images/full-body.jpg"
-          alt="Boxer"
-        />
-      </div>
+      <img
+        class="hero-image col-md-4 col-5 px-0 p-md-2"
+        src="~/assets/images/full-body.jpg"
+        alt="Boxer"
+      />
     </div>
   </div>
 </template>
@@ -28,6 +28,8 @@ export default {
 .hero-image {
   width: 466px;
   height: 463px;
+  object-fit: cover;
+  object-position: center;
 }
 .hero-text {
   font-size: 64px;
@@ -37,5 +39,26 @@ export default {
 }
 .text-alert {
   color: #d81a04;
+}
+@media screen and (max-width: 768px) {
+  .hero-text {
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height: 48px;
+  }
+  .hero-image {
+    width: 154px;
+    height: 295px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .hero-image {
+    width: 154px;
+    height: 255px;
+  }
+  .hero-text {
+    font-size: 24px;
+    line-height: 38px;
+  }
 }
 </style>
