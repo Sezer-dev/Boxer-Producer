@@ -12,4 +12,7 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 </style>
