@@ -8,8 +8,10 @@
         </div>
       </div>
     </div>
-    <div class="row my-5">
-      <div class="accordion-container col-10 offset-1">
+    <div
+      class="row my-md-5 my-3 d-flex justify-content-center justify-content-md-start products-row"
+    >
+      <div class="accordion-container col-md-10 col-11 offset-md-1">
         <div v-for="(accordion, index) of accordions" :key="index">
           <b-button
             v-b-toggle:[accordion+index]
@@ -17,7 +19,7 @@
             class="accordion-button d-flex justify-content-between align-items-center shadow-none p-4"
           >
             {{ accordion.title }}
-            <plus-icon v-if="accordion.expand"></plus-icon>
+            <plus-icon v-if="!accordion.expand"></plus-icon>
             <dash-icon v-else></dash-icon>
           </b-button>
           <b-collapse
@@ -111,5 +113,20 @@ export default {
 }
 .accordion-text {
   font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+  .product-title {
+    font-size: 18px;
+  }
+  .accordion-text {
+    font-size: 7px;
+  }
+  .accordion-button {
+    font-size: 9px;
+  }
+  .products-row {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 </style>
