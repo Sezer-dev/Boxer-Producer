@@ -1,25 +1,28 @@
 <template>
   <div id="about" class="container-fluid about-container">
-    <div
-      class="row col-md-10 offset-1 d-flex justify-content-between pt-4 pb-5"
-    >
-      <div class="col-md-12 d-flex flex-column align-items-end">
+    <div class="row d-flex justify-content-center">
+      <div
+        class="col-md-10 d-flex flex-column align-items-md-end align-items-center"
+      >
         <div class="m-3">
           <h1 class="about-title m-0">About</h1>
           <span class="red-line"></span>
         </div>
       </div>
+    </div>
+
+    <div class="row d-flex justify-content-center">
       <div
-        class="col-md-12 d-flex justify-content-between align-items-center pt-2 pb-5"
+        class="col-md-10 d-flex justify-content-md-between justify-content-center align-items-center pt-2 pb-2 pt-md-2 pb-md-5"
       >
-        <div class="col-md-5">
+        <div class="col-md-6 d-md-block d-none">
           <img
             class="boxer-sitting"
             src="~/assets/images/boxer-sitting.jpg"
             alt="Boxer"
           />
         </div>
-        <div class="col-md-5 about-text">
+        <div class="col-md-6 col-12 about-text">
           <p>
             Founded in 1924 by Hüseyin Küçükaslan, Kucukaslan Tekstil company in
             a short period of time became Turkey's leading brand in underwear
@@ -53,7 +56,7 @@ export default {
 }
 .boxer-sitting {
   height: 389px;
-  width: auto;
+  width: 584px;
   filter: grayscale(1);
 }
 .boxer-sitting:hover {
@@ -70,5 +73,31 @@ export default {
 }
 .about-text {
   font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .about-title {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+  .about-text {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .boxer-sitting {
+    width: 430px;
+    object-fit: cover;
+    object-position: 52% 0;
+  }
+}
+@media screen and (max-width: 1175px) {
+  .boxer-sitting {
+    width: 284px;
+  }
+  .about-text {
+    font-size: 15px;
+    object-fit: cover;
+    object-position: 52% 0;
+  }
 }
 </style>
