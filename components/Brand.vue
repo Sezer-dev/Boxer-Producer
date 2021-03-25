@@ -4,7 +4,9 @@
       <div
         class="col-md-10 col-12 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center"
       >
-        <div class="col-md-4 col-12 d-flex justify-content-center">
+        <div
+          class="col-md-5 col-12 d-flex justify-content-md-start justify-content-center"
+        >
           <img
             class="boxer-front"
             src="~/assets/images/boxer-front.jpg"
