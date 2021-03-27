@@ -1,18 +1,16 @@
 <template>
-  <footer class="container-fluid bg-white p-5 mt-5">
-    <div
-      class="row col-md-10 offset-1 d-flex flex-md-row flex-column justify-content-between align-items-center"
-    >
-      <div>
-        <Logo />
-      </div>
-      <div class="d-flex align-items-center my-3 my-md-0">
-        <p class="font-weight-bold m-0 text-md-start text-center">
+  <footer class="container-fluid bg-white py-md-5 py-0 mt-md-5 mt-0">
+    <div class="row d-flex justify-content-center footer-row">
+      <div
+        class="col-12 d-flex flex-md-row flex-column justify-content-center justify-content-md-between align-items-center"
+      >
+        <div class="py-2 py-md-0">
+          <Logo />
+        </div>
+        <p class="font-weight-bold m-0 text-md-start text-center py-2 py-md-0">
           © Boxer Producer 2021 - All rights reserved.
         </p>
-      </div>
-      <div>
-        <a href="https://kucukaslantekstil.com/">
+        <a href="https://kucukaslantekstil.com/" class="py-2 py-md-0">
           <img
             class="kucukaslantekstil-logo"
             src="~/assets/images/kucukaslan-master.png"
@@ -25,7 +23,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  name: "Footer",
+}
 </script>
 
 <style scoped>
