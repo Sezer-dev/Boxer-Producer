@@ -1,17 +1,15 @@
 <template>
-  <div id="products" class="container-fluid">
-    <div class="row">
-      <div class="col-md-12 d-flex justify-content-center">
+  <div id="products" class="container-fluid my-3 py-3 my-md-5 py-md-5">
+    <div class="row pb-5 d-flex justify-content-center">
+      <div class="col-12 d-flex justify-content-center">
         <div>
           <p class="product-title m-0">What we produce?</p>
           <span class="red-line"></span>
         </div>
       </div>
     </div>
-    <div
-      class="row my-md-5 my-3 d-flex justify-content-center justify-content-md-start products-row"
-    >
-      <div class="accordion-container col-md-10 col-11 offset-md-1">
+    <div class="row d-flex justify-content-center products-row">
+      <div class="col-12 accordion-container">
         <div v-for="(accordion, index) of accordions" :key="index">
           <b-button
             v-b-toggle:[accordion+index]
@@ -119,10 +117,10 @@ export default {
     font-size: 18px;
   }
   .accordion-text {
-    font-size: 7px;
+    font-size: 12px;
   }
   .accordion-button {
-    font-size: 9px;
+    font-size: 14px;
   }
   .products-row {
     margin-right: 0;
