@@ -2,7 +2,7 @@
   <div class="container-fluid my-5">
     <div class="row d-flex justify-content-center align-items-center brand-row">
       <div
-        class="col-md-10 col-12 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center"
+        class="col-12 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center"
       >
         <div
           class="col-md-5 col-12 d-flex justify-content-md-start justify-content-center"
@@ -61,14 +61,11 @@ export default {
     font-size: 24px;
   }
   .brand-text p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .boxer-front {
     width: 186px;
     height: 237px;
-  }
-  .brand-row {
-    margin: 0;
   }
 }
 </style>
