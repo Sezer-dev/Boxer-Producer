@@ -2,7 +2,7 @@
   <div id="about" class="container-fluid about-container">
     <div class="row d-flex justify-content-center">
       <div
-        class="col-12 d-flex flex-column align-items-md-end align-items-center"
+        class="col-11 d-flex flex-column align-items-md-end align-items-center"
       >
         <div class="m-3">
           <h1 class="about-title m-0">About</h1>
@@ -13,7 +13,7 @@
 
     <div class="row d-flex justify-content-center">
       <div
-        class="col-12 d-flex justify-content-md-between justify-content-center align-items-center pb-2 pt-2 pb-md-5"
+        class="col-11 d-flex justify-content-md-between justify-content-center align-items-center pb-2 pt-2 pb-md-5"
       >
         <div class="col-md-6 d-md-block d-none">
           <img
