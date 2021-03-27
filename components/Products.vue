@@ -1,7 +1,7 @@
 <template>
   <div id="products" class="container-fluid my-3 py-3 my-md-5 py-md-5">
     <div class="row pb-5 d-flex justify-content-center">
-      <div class="col-12 d-flex justify-content-center">
+      <div class="col-11 d-flex justify-content-center">
         <div>
           <p class="product-title m-0">What we produce?</p>
           <span class="red-line"></span>
@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="row d-flex justify-content-center products-row">
-      <div class="col-12 accordion-container">
+      <div class="col-11 accordion-container">
         <div v-for="(accordion, index) of accordions" :key="index">
           <b-button
             v-b-toggle:[accordion+index]
