@@ -6,6 +6,7 @@
     <About />
     <Brand />
     <Products />
+    <Contact />
     <Footer />
   </div>
 </template>
