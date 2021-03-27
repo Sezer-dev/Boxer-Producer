@@ -11,6 +11,8 @@
 }
 body {
   font-family: "Montserrat", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 html {
   scroll-behavior: smooth;
