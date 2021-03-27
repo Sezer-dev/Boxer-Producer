@@ -1,7 +1,7 @@
 <template>
   <div id="contact" class="container-fluid my-md-5 my-3 py-md-5 py-3">
     <div class="row d-flex justify-content-center">
-      <div class="col-12 d-flex justify-content-center">
+      <div class="col-11 d-flex justify-content-center">
         <div class="contact-header">
           <p class="mb-1 mb-md-3">Contact Us</p>
           <span class="line"></span>
@@ -10,7 +10,7 @@
     </div>
     <div class="row d-flex justify-content-center my-5">
       <div
-        class="col-12 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center"
+        class="col-11 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center"
       >
         <div class="col-md-7 col-10">
           <div class="d-flex justify-content-between">
@@ -157,7 +157,7 @@ export default {
 }
 @media screen and (max-width: 768px) {
   .input-submit-button {
-    font-size: 9px;
+    font-size: 12px;
     width: 67px;
     height: 28px;
   }
