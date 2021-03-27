@@ -2,7 +2,7 @@
   <div id="about" class="container-fluid about-container">
     <div class="row d-flex justify-content-center">
       <div
-        class="col-md-10 d-flex flex-column align-items-md-end align-items-center"
+        class="col-12 d-flex flex-column align-items-md-end align-items-center"
       >
         <div class="m-3">
           <h1 class="about-title m-0">About</h1>
@@ -13,7 +13,7 @@
 
     <div class="row d-flex justify-content-center">
       <div
-        class="col-md-10 d-flex justify-content-md-between justify-content-center align-items-center pb-2 pt-2 pb-md-5"
+        class="col-12 d-flex justify-content-md-between justify-content-center align-items-center pb-2 pt-2 pb-md-5"
       >
         <div class="col-md-6 d-md-block d-none">
           <img
@@ -58,10 +58,10 @@ export default {
   height: 389px;
   width: 584px;
   filter: grayscale(1);
+  transition: all 0.5s ease-in-out;
 }
 .boxer-sitting:hover {
   filter: grayscale(0);
-  transition: all 0.2s ease-in-out;
 }
 .red-line {
   border-bottom: 4px solid #d81a04;
@@ -80,22 +80,22 @@ export default {
     letter-spacing: 2px;
   }
   .about-text {
-    font-size: 9px;
+    font-size: 14px;
   }
 }
-@media screen and (max-width: 1500px) {
+@media screen and (min-width: 1440px) {
+  .about-container {
+    background-color: white;
+  }
+}
+@media screen and (max-width: 1024px) {
   .boxer-sitting {
-    width: 430px;
+    width: 400px;
     object-fit: cover;
-    object-position: 52% 0;
-  }
-}
-@media screen and (max-width: 1175px) {
-  .boxer-sitting {
-    width: 284px;
+    height: 300px;
   }
   .about-text {
-    font-size: 15px;
+    font-size: 14px;
     object-fit: cover;
     object-position: 52% 0;
   }
