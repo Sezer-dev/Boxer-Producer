@@ -167,7 +167,7 @@ export default {
   }
   .form-group,
   .form-input {
-    font-size: 12px;
+    font-size: 14px;
     width: 100%;
   }
   .contact-header {
