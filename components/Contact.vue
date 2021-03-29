@@ -10,7 +10,7 @@
     </div>
     <div class="row d-flex justify-content-center my-5">
       <div
-        class="col-11 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center"
+        class="col-11 d-flex flex-md-row flex-column justify-content-between align-items-center"
       >
         <div class="col-md-7 col-12 pr-md-5">
           <div class="d-flex justify-content-between">
