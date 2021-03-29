@@ -96,8 +96,6 @@ export default {
   }
   .about-text {
     font-size: 14px;
-    object-fit: cover;
-    object-position: 52% 0;
   }
 }
 </style>
