@@ -1,9 +1,7 @@
 <template>
   <div class="container-fluid my-5">
     <div class="row d-flex justify-content-center align-items-center brand-row">
-      <div
-        class="col-11 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center"
-      >
+      <div class="col-11 d-md-flex flex-md-row">
         <div
           class="col-md-5 col-12 d-flex justify-content-md-start justify-content-center"
         >
