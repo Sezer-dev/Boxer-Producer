@@ -60,12 +60,20 @@ export default {
         },
         {
           title: "Men's Bamboo Boxershorts",
-          texts: [],
+          texts: [
+            "Our sustainable men's bamboo boxers are cut for comfort in our breathable and incredibly soft bamboo fabric.",
+            "Maybe the most elegant fabric for underwear, it is amazing even for those with sensitive skin types.",
+            "It is perfect. It is a cooling fabric, perfect for hot summer days.",
+          ],
           expand: false,
         },
         {
           title: "Men's Modal Boxershorts",
-          texts: [],
+          texts: [
+            "Nothing beats this particular fabric in the softness department. And if nylon is not fit for you, this fabric might work wonders.",
+            "It might not be the most appropriate to wear while working out, since it does not offer plenty of support, but under jeans or suit pants, it works great.",
+            "Being so soft, boxer briefs in fabric are considerably more comfortable to wear than others are.",
+          ],
           expand: false,
         },
       ],
