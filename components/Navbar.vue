@@ -47,4 +47,41 @@ ul li a {
 .active {
   border-bottom: 2px solid #d81a04;
 }
+@media screen and (max-width: 768px) {
+  ul li:nth-child(1) .active::after {
+    content: "";
+    width: 54px;
+    margin: 0 auto;
+    border-bottom: 2px solid #d81a04;
+    display: flex;
+    flex-direction: column;
+  }
+  ul li:nth-child(2) a.active::after {
+    content: "";
+    width: 64px;
+    margin: 0 auto;
+    border-bottom: 2px solid #d81a04;
+    display: flex;
+    flex-direction: column;
+  }
+  ul li:nth-child(3) a.active::after {
+    content: "";
+    width: 182px;
+    margin: 0 auto;
+    border-bottom: 2px solid #d81a04;
+    display: flex;
+    flex-direction: column;
+  }
+  ul li:nth-child(4) a.active::after {
+    content: "";
+    width: 86px;
+    margin: 0 auto;
+    border-bottom: 2px solid #d81a04;
+    display: flex;
+    flex-direction: column;
+  }
+  .active {
+    border-bottom: none;
+  }
+}
 </style>
