@@ -162,6 +162,7 @@ export default {
   font-size: 18px;
   background: #000000;
   border-radius: 25px;
+  line-height: 1;
 }
 .form-group,
 .form-input {
