@@ -12,7 +12,7 @@
       <div
         class="col-11 d-flex flex-md-row flex-column justify-content-between align-items-center"
       >
-        <div class="col-md-7 col-12 pr-md-5">
+        <div class="col-md-7 col-12 pr-md-5 px-1">
           <div class="d-flex justify-content-between">
             <div class="text-container">
               <p class="contact-text text-nowrap">
@@ -177,6 +177,9 @@ export default {
   .contact-icon,
   .contact-text {
     font-size: 12px;
+  }
+  .contact-icon {
+    width: 11px;
   }
   .form-group,
   .form-input {
