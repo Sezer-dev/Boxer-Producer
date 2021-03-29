@@ -97,9 +97,11 @@
                 class="form-input"
               ></b-form-textarea>
             </b-form-group>
-            <b-button type="submit" class="input-submit-button mr-3"
-              >Send</b-button
-            >
+            <div class="d-flex justify-content-end align-items-center">
+              <b-button type="submit" class="input-submit-button">
+                Send
+              </b-button>
+            </div>
           </b-form>
         </div>
       </div>
@@ -155,8 +157,6 @@ export default {
   border-radius: 12px;
 }
 .input-submit-button {
-  position: absolute;
-  right: 0;
   height: 50px;
   width: 145px;
   font-size: 18px;
