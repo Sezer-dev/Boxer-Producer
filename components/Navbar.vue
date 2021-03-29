@@ -1,8 +1,5 @@
 <template>
-  <b-navbar
-    toggleable="md"
-    class="container d-flex mt-1 mb-5 pl-0 navbar-container"
-  >
+  <b-navbar toggleable="md" class="container d-flex mt-1 mb-5 navbar-container">
     <b-collapse id="toggle-nav" is-nav>
       <b-navbar-nav fill>
         <b-nav-item
