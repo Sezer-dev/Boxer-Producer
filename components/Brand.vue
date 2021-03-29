@@ -3,7 +3,7 @@
     <div class="row d-flex justify-content-center align-items-center brand-row">
       <div class="col-11 d-md-flex flex-md-row">
         <div
-          class="col-md-5 col-12 d-flex justify-content-md-start justify-content-center"
+          class="col-md-5 col-12 d-flex justify-content-md-start justify-content-center mb-3 mb-md-0"
         >
           <img
             class="boxer-front"
