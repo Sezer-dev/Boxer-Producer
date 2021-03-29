@@ -12,28 +12,36 @@
       <div
         class="col-11 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center"
       >
-        <div class="col-md-7 col-10 px-5">
+        <div class="col-md-7 col-12 pr-md-5">
           <div class="d-flex justify-content-between">
             <div class="text-container">
-              <p class="contact-text">
-                <span class="contact-icon">T</span>+90 212 514 80 80
+              <p class="contact-text text-nowrap">
+                <a href="tel:+902125148090"
+                  ><span class="contact-icon">T</span>+90 212 514 80 80
+                </a>
               </p>
             </div>
-            <div class="text-container">
+            <div class="text-container text-nowrap">
               <p class="contact-text">
-                <span class="contact-icon">W</span>+90 538 297 63 73
+                <a href="tel:+905382976373">
+                  <span class="contact-icon">W</span>+90 538 297 63 73
+                </a>
               </p>
             </div>
           </div>
           <div class="d-flex justify-content-between pb-md-5">
             <div class="text-container">
-              <p class="contact-text">
-                <span class="contact-icon">F</span>+90 212 210 06 06
+              <p class="contact-text text-nowrap">
+                <a href="tel:902122100606">
+                  <span class="contact-icon">F</span>+90 212 210 06 06
+                </a>
               </p>
             </div>
             <div class="text-container">
-              <p class="contact-text">
-                <span class="contact-icon">E</span>info@kucukaslantekstil.com
+              <p class="contact-text text-nowrap">
+                <a href="mailto:info@kucukaslantekstil.com">
+                  <span class="contact-icon">E</span>info@kucukaslantekstil.com
+                </a>
               </p>
             </div>
           </div>
@@ -132,6 +140,10 @@ export default {
 .contact-text {
   font-size: 18px;
 }
+.contact-text a {
+  text-decoration: none;
+  color: black;
+}
 .contact-icon {
   color: #d81a04;
   font-size: 18px;
@@ -163,12 +175,15 @@ export default {
   }
   .contact-icon,
   .contact-text {
-    font-size: 14px;
+    font-size: 12px;
   }
   .form-group,
   .form-input {
     font-size: 14px;
     width: 100%;
+  }
+  .form-input:not(textarea) {
+    height: 25px;
   }
   .contact-header {
     font-size: 18px;
