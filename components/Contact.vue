@@ -12,7 +12,7 @@
       <div
         class="col-11 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center"
       >
-        <div class="col-md-7 col-10">
+        <div class="col-md-7 col-10 px-5">
           <div class="d-flex justify-content-between">
             <div class="text-container">
               <p class="contact-text">
