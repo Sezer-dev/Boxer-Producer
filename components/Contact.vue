@@ -38,7 +38,7 @@
               </p>
             </div>
             <div class="text-container">
-              <p class="contact-text text-nowrap">
+              <p class="contact-text text-nowrap text-truncate">
                 <a href="mailto:info@kucukaslantekstil.com">
                   <span class="contact-icon">E</span>info@kucukaslantekstil.com
                 </a>
@@ -56,49 +56,37 @@
           </div>
         </div>
         <div class="col-md-5 col-12">
-          <b-form>
-            <b-form-group
-              id="input-group-name"
-              label="Name & Surname"
-              label-for="input-name-surname"
-              @submit="onSubmit"
-            >
+          <b-form @submit="onSubmit">
+            <b-form-group label="Name & Surname">
               <b-form-input
-                id="input-name-surname"
                 v-model="form.fullName"
                 type="text"
                 required
                 class="form-input"
-              ></b-form-input>
+              />
             </b-form-group>
-            <b-form-group
-              id="input-group-email"
-              label="E-mail"
-              label-for="input-email"
-            >
+            <b-form-group label="E-mail">
               <b-form-input
-                id="input-email"
                 v-model="form.email"
                 type="email"
                 required
                 class="form-input"
-              ></b-form-input>
+              />
             </b-form-group>
-            <b-form-group
-              id="input-textarea"
-              label="Message"
-              label-for="input-message"
-            >
+            <b-form-group label="Message">
               <b-form-textarea
-                id="input-textarea"
                 v-model="form.message"
                 required
                 rows="4"
                 class="form-input"
-              ></b-form-textarea>
+              />
             </b-form-group>
             <div class="d-flex justify-content-end align-items-center">
-              <b-button type="submit" class="input-submit-button">
+              <b-button
+                :disabled="loading"
+                class="input-submit-button"
+                type="submit"
+              >
                 Send
               </b-button>
             </div>
@@ -118,11 +106,18 @@ export default {
         email: "",
         message: "",
       },
+      loading: false,
     }
   },
   methods: {
     onSubmit(event) {
       event.preventDefault()
+      const { fullName, email, message } = this.form
+      if (!fullName || !email || !message) return
+      this.loading = true
+      setTimeout(() => {
+        this.loading = false
+      }, 1000)
     },
   },
 }
