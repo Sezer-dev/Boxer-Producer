@@ -8,51 +8,100 @@
         </div>
       </div>
     </div>
-    <div class="row d-flex justify-content-center my-5">
+    <div class="row d-flex justify-content-center mb-md-5">
       <div
         class="col-11 d-md-flex flex-md-row justify-content-md-between align-items-md-center"
       >
-        <div class="col-md-7 col-12 pr-md-5 px-1">
+        <div class="col-md-7 col-12 pr-md-5 px-1 min-xs-screen">
           <div class="d-flex justify-content-between">
-            <div class="text-container">
-              <p class="contact-text text-nowrap">
-                <a href="tel:+902125148090"
-                  ><span class="contact-icon">T</span>+90 212 514 80 80
-                </a>
-              </p>
+            <div>
+              <div class="text-container">
+                <p class="contact-text">
+                  <a href="tel:+902125148090"
+                    ><span class="contact-icon">T</span>+90 212 514 80 80
+                  </a>
+                </p>
+              </div>
+              <div class="text-container">
+                <p class="contact-text">
+                  <a href="tel:902122100606">
+                    <span class="contact-icon">F</span>+90 212 210 06 06
+                  </a>
+                </p>
+              </div>
             </div>
-            <div class="text-container text-nowrap">
-              <p class="contact-text">
-                <a href="tel:+905382976373">
-                  <span class="contact-icon">W</span>+90 538 297 63 73
-                </a>
-              </p>
-            </div>
-          </div>
-          <div class="d-flex justify-content-between pb-md-5">
-            <div class="text-container">
-              <p class="contact-text text-nowrap">
-                <a href="tel:902122100606">
-                  <span class="contact-icon">F</span>+90 212 210 06 06
-                </a>
-              </p>
-            </div>
-            <div class="text-container">
-              <p class="contact-text text-nowrap text-truncate">
-                <a href="mailto:info@kucukaslantekstil.com">
-                  <span class="contact-icon">E</span>info@kucukaslantekstil.com
-                </a>
-              </p>
+            <div>
+              <div class="text-container">
+                <p class="contact-text">
+                  <a href="tel:+905382976373">
+                    <span class="contact-icon">W</span>+90 538 297 63 73
+                  </a>
+                </p>
+              </div>
+              <div class="text-container">
+                <p class="contact-text">
+                  <a href="mailto:info@kucukaslantekstil.com">
+                    <span class="contact-icon">E</span
+                    >info@kucukaslantekstil.com
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
           <div
             class="d-flex flex-column align-items-center align-items-md-start pt-md-5"
           >
-            <p class="contact-text">
+            <p class="contact-text mb-1 mb-md-3">
               <span class="contact-icon d-inline-block">A</span>Seyrantepe
               Yıldız St. Number:5
             </p>
             <p class="contact-text">Kagithane / Istanbul, Turkey</p>
+          </div>
+        </div>
+        <div class="col-md-7 col-12 pr-md-5 px-1 my-4 max-xs-screen d-none">
+          <div>
+            <div>
+              <div class="text-container">
+                <p class="contact-text">
+                  <a href="tel:+902125148090"
+                    ><span class="contact-icon">T</span>+90 212 514 80 80
+                  </a>
+                </p>
+              </div>
+              <div class="text-container">
+                <p class="contact-text">
+                  <a href="tel:902122100606">
+                    <span class="contact-icon">F</span>+90 212 210 06 06
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="text-container">
+                <p class="contact-text">
+                  <a href="tel:+905382976373">
+                    <span class="contact-icon">W</span>+90 538 297 63 73
+                  </a>
+                </p>
+              </div>
+              <div class="text-container">
+                <p class="contact-text">
+                  <a href="mailto:info@kucukaslantekstil.com">
+                    <span class="contact-icon">E</span
+                    >info@kucukaslantekstil.com
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-column align-items-center align-items-md-start pt-md-5"
+            >
+              <p class="contact-text mb-1">
+                <span class="contact-icon d-inline-block">A</span>Seyrantepe
+                Yıldız St. Number:5
+              </p>
+              <p class="contact-text">Kagithane / Istanbul, Turkey</p>
+            </div>
           </div>
         </div>
         <div class="col-md-5 col-12">
@@ -131,9 +180,6 @@ export default {
   border-bottom: 4px solid #d81a04;
   display: block;
 }
-.text-container {
-  width: 240px;
-}
 .contact-text {
   font-size: 18px;
 }
@@ -163,6 +209,15 @@ export default {
 .form-input {
   font-size: 24px;
 }
+@media screen and (max-width: 375px) {
+  .min-xs-screen {
+    display: none !important;
+  }
+  .max-xs-screen {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
 @media screen and (max-width: 768px) {
   .input-submit-button {
     font-size: 12px;
@@ -186,9 +241,6 @@ export default {
   }
   .contact-header {
     font-size: 18px;
-  }
-  .text-container {
-    width: 129px;
   }
 }
 </style>
