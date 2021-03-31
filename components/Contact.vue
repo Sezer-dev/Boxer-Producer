@@ -38,7 +38,7 @@
               </p>
             </div>
             <div class="text-container">
-              <p class="contact-text text-nowrap text-truncate">
+              <p class="contact-text text-nowrap">
                 <a href="mailto:info@kucukaslantekstil.com">
                   <span class="contact-icon">E</span>info@kucukaslantekstil.com
                 </a>
