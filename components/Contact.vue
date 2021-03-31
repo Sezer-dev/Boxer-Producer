@@ -30,7 +30,6 @@
                 </p>
               </div>
             </div>
-<<<<<<< HEAD
             <div>
               <div class="text-container">
                 <p class="contact-text">
@@ -47,30 +46,6 @@
                   </a>
                 </p>
               </div>
-=======
-            <div class="text-container text-nowrap">
-              <p class="contact-text">
-                <a href="tel:+905382976373">
-                  <span class="contact-icon">W</span>+90 538 297 63 73
-                </a>
-              </p>
-            </div>
-          </div>
-          <div class="d-flex justify-content-between pb-md-5">
-            <div class="text-container">
-              <p class="contact-text text-nowrap">
-                <a href="tel:902122100606">
-                  <span class="contact-icon">F</span>+90 212 210 06 06
-                </a>
-              </p>
-            </div>
-            <div class="text-container">
-              <p class="contact-text text-nowrap text-truncate">
-                <a href="mailto:info@kucukaslantekstil.com">
-                  <span class="contact-icon">E</span>info@kucukaslantekstil.com
-                </a>
-              </p>
->>>>>>> d84139d6f41917ae3c2746f2e1ccd68f270b76af
             </div>
           </div>
           <div
@@ -83,7 +58,6 @@
             <p class="contact-text">Kagithane / Istanbul, Turkey</p>
           </div>
         </div>
-<<<<<<< HEAD
         <div class="col-md-7 col-12 pr-md-5 px-1 my-4 max-xs-screen d-none">
           <div>
             <div>
@@ -130,8 +104,6 @@
             </div>
           </div>
         </div>
-=======
->>>>>>> d84139d6f41917ae3c2746f2e1ccd68f270b76af
         <div class="col-md-5 col-12">
           <b-form @submit="onSubmit">
             <b-form-group label="Name & Surname">
