@@ -1,5 +1,11 @@
 <template>
-  <img class="logo" src="~/assets/images/boxer-producer-text.jpg" alt="Logo" />
+  <a href="#">
+    <img
+      class="logo"
+      src="~/assets/images/boxer-producer-text.jpg"
+      alt="Logo"
+    />
+  </a>
 </template>
 
 <script>
