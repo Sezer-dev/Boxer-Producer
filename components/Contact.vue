@@ -163,6 +163,11 @@ export default {
       event.preventDefault()
       const { fullName, email, message } = this.form
       if (!fullName || !email || !message) return
+      window.open(
+        `mailto:info@kucukaslantekstil.com?subject=Boxerproducer%20-%20${fullName}%20-%20Contact&body=${encodeURI(
+          message
+        )}`
+      )
       this.loading = true
       setTimeout(() => {
         this.loading = false
