@@ -1,6 +1,6 @@
 <template>
   <div id="contact" class="container-fluid my-md-5 my-3 py-md-5 py-3">
-    <div class="row d-flex justify-content-center">
+    <div class="row d-flex justify-content-center mb-4 mb-md-5">
       <div class="col-11 d-flex justify-content-center">
         <div class="contact-header">
           <p class="mb-1 mb-md-3">Contact Us</p>
@@ -55,7 +55,7 @@
               <span class="contact-icon d-inline-block">A</span>Seyrantepe
               Yıldız St. Number:5
             </p>
-            <p class="contact-text">Kagithane / Istanbul, Turkey</p>
+            <p class="contact-text mb-4">Kagithane / Istanbul, Turkey</p>
           </div>
         </div>
         <div class="col-md-7 col-12 pr-md-5 px-1 my-4 max-xs-screen d-none">
