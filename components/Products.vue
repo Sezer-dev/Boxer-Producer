@@ -12,7 +12,7 @@
       <div class="col-11 accordion-container">
         <div v-for="(accordion, index) of accordions" :key="index">
           <b-button
-            v-b-toggle:[accordion+index]
+            v-b-toggle:[accordion.id+index]
             :class="{ expanded: accordion.expand }"
             class="accordion-button d-flex justify-content-between align-items-center shadow-none p-4"
           >
@@ -21,16 +21,18 @@
             <dash-icon v-else></dash-icon>
           </b-button>
           <b-collapse
-            :id="accordion + index"
+            :id="accordion.id + index"
             :key="index"
             accordion="products-accordion"
             class="accordion-text p-4"
             @hide="opening(index)"
             @show="closing(index)"
           >
-            <p v-for="(text, textIndex) of accordion.texts" :key="textIndex">
-              {{ text }}
-            </p>
+            <div>
+              <p v-for="(text, textIndex) of accordion.texts" :key="textIndex">
+                {{ text }}
+              </p>
+            </div>
           </b-collapse>
         </div>
       </div>
@@ -50,6 +52,7 @@ export default {
     return {
       accordions: [
         {
+          id: "cotton",
           title: "Men's Cotton Boxershorts",
           texts: [
             "One of the most common fabrics from which the biggest manufacturers produce their underwear in, cotton has become widely used in this industry for many reasons.",
@@ -59,6 +62,7 @@ export default {
           expand: false,
         },
         {
+          id: "bamboo",
           title: "Men's Bamboo Boxershorts",
           texts: [
             "Our sustainable men's bamboo boxers are cut for comfort in our breathable and incredibly soft bamboo fabric.",
@@ -68,6 +72,7 @@ export default {
           expand: false,
         },
         {
+          id: "modal",
           title: "Men's Modal Boxershorts",
           texts: [
             "Nothing beats this particular fabric in the softness department. And if nylon is not fit for you, this fabric might work wonders.",
@@ -119,6 +124,13 @@ export default {
 }
 .accordion-text {
   font-size: 14px;
+  transition: all 0.2s linear !important;
+}
+.accordion-text.collapse {
+  opacity: 0 !important;
+}
+.accordion-text.collapse.show {
+  opacity: 1 !important;
 }
 @media screen and (max-width: 768px) {
   .product-title {
@@ -134,5 +146,11 @@ export default {
     margin-right: 0;
     margin-left: 0;
   }
+}
+</style>
+
+<style>
+.collapsing {
+  transition: none !important;
 }
 </style>
