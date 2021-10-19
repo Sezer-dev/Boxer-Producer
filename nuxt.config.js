@@ -1,7 +1,10 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
-
+  server: {
+    port: 3030,
+    host: "192.168.1.11"
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Boxer Producer',
